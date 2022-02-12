@@ -9,15 +9,17 @@
     }
 
 
-class ListRandom {
-    public ListNode Head;
-    public ListNode Tail;
-    public int Count;
+    class ListRandom {
+        public ListNode Head;
+        public ListNode Tail;
+        public int Count;
 
-    public void Serialize(Stream s) {}
+        public void Serialize(Stream s) {
+        }
 
-    public void Deserialize(Stream s) {}
-}
+        public void Deserialize(Stream s) {
+        }
+    }
 
 Примечание: сериализация подразумевает сохранение и восстановление полной структуры списка, включая взаимное соотношение его элементов между собой.
 Напишите программу, демонстрирующую работу реализованных функций сериализации и десериализации на небольшом наборе тестовых данных(списке из нескольких элементов).Тест нужно выполнить без использования библиотек / стандартных средств сериализации.Сигнатуры методов serialize / deserialize менять нельзя.
